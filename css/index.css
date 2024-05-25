@@ -1,0 +1,227 @@
+
+
+
+
+
+
+header
+{
+	background-color: rgba(234, 235, 200, 0.8);
+}
+table tbody tr td span
+{
+	color: darkkhaki;
+}
+.banner1
+{
+	margin-top: 50px;
+	width: 100%;
+}
+.banner 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.banner1 h2
+{
+/*	word-spacing: 3px;*/
+	line-height: 50px;
+	margin-top: 50px;
+	font-size: 40px;
+}
+.banner2 img
+{
+	width: 100%;
+	margin-top: 50px;
+}
+.about1,.about2,.about3
+{
+	height: 450px;
+	margin-top: 50px;
+	background-color: rgba(234, 235, 200, 0.8);
+	position: relative;
+
+}
+.about1 p,.about2 p,.about3 p
+{
+	padding: 0px 20px 20px 20px;
+}
+.about1 h2,.about2 h2,.about3 h2
+{
+	padding: 20px 0px 0px 20px;
+}
+.about1 img,.about2 img,.about3 img
+{
+	width: 100%;
+	height: 60%;
+}
+.about2:hover,
+.about3:hover,
+.about1:hover
+{
+	cursor: pointer;
+	opacity: 0.35;
+	transition: all 1s;
+	transform: scale(1.1);
+}
+ 
+.about4
+{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	text-align: center;
+	visibility: hidden;
+
+}
+.about1:hover ~ .about4,
+.about2:hover ~ .about4,
+.about3:hover ~ .about4
+{
+	visibility: visible;
+}
+ 
+ 
+#service
+{
+	background-color: rgba(22, 12, 209, 0.8);
+	color: white;
+	margin-top: 50px;
+}
+.service1,.service2
+{
+	padding: 80px 0px;
+	 
+}
+.footar1 
+{
+	margin-top: 50px;
+	
+}
+.footar1 .p 
+{
+	color: #0e0d0d;
+}
+.footar1 a 
+{
+	color: black;
+	display: flex;
+	padding: 5px 0px;
+	margin: 10px 0px;
+}
+#contact 
+{
+	border-top:0.1px solid ;
+	padding: 20px;
+}
+#fa-facebook,#fa-instagram,#fa-twitter,#fa-youtube,#fa-music
+{
+	transition: all 1s;
+	margin-right: 20px;
+}
+  
+
+  #fa-facebook:hover
+{
+	transform: scale(1.1);
+	background-color: #316FF6;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	padding: 10px;
+
+}
+  #fa-instagram:hover
+{
+	transform: scale(1.1);
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+}
+  #fa-twitter:hover
+{
+	transform: scale(1.1);
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	 background-color: #1DA1F2;
+	 padding: 10px;
+	 color: white;
+}
+#fa-music:hover
+{
+	transform: scale(1.1);
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	 padding: 10px;
+}
+
+  #fa-youtube:hover
+{
+	transform: scale(1.1);
+	background-color: blue;
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+	 background-color: red;
+	 padding: 10px;
+	 color: white;
+
+}
+
+.contact2
+{
+	text-align: right;
+}
+
+
+
+ @media screen and (max-width:991px)
+  
+{
+	header .nav
+	{
+		display: none;
+	}	
+	 .container .collapse ul button .btn
+	{
+		padding: 0px;
+		width: 100px;
+	}
+	#service
+	{
+		background-color: rgba(191, 12, 209, 0.8);
+	}
+	.service1
+	{
+		margin-bottom: 0px;
+	}
+	.about2:hover,
+.about3:hover,
+.about1:hover
+{
+	 
+	transform: none;
+}
+	 
+}
+@media screen and (max-width:1100px)
+{
+	 .table
+	{
+		display: none;
+	}
+	.table2,.table3,.table3,.table4 
+	{
+		width: 100%;
+	}
+}
